@@ -1,0 +1,12 @@
+$ javac SmartParkingSystem.java SmartParkingTests.java
+$ java SmartParkingTests
+Normal entry allocates last free slot: PASS
+Zero-minute parking fee: PASS
+Exactly 60 minutes costs one hour: PASS
+61 minutes rounds up to two hours: PASS
+Duplicate active registration rejected: PASS
+Unknown vehicle type rejected: PASS
+Full facility rejects additional vehicle: PASS
+Invalid slot release rejected: PASS
+Valid monthly-pass parking fee is zero: PASS
+Passed 9 tests.
