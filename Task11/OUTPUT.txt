@@ -1,0 +1,7 @@
+$ javac SmartParkingSystem.java
+$ java SmartParkingSystem
+Ticket 1 allocated at [0, 0]
+Fee for 90 minutes: Rs 60.0
+Monthly-pass ticket 2 allocated at [0, 0]
+Pass-holder fee: Rs 0.0
+Invalid release result: false
