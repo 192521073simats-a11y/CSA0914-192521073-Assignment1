@@ -1,0 +1,7 @@
+$ javac ExtendedParkingSystem.java
+$ java ExtendedParkingSystem
+Floor capacities: 20, 35, 40, 50, 60
+E-bike flat fee: Rs 25.0
+Delivery van at 10:00 for 2 hours: Rs 120.0
+Delivery van at 18:00 for 2 hours: Rs 60.0
+Visitor one-day pass valid at 14:00: true
