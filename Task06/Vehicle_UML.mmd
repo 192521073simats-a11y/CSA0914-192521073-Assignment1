@@ -1,0 +1,19 @@
+classDiagram
+    class Vehicle {
+      <<abstract>>
+      -String regNo
+      +getRegNo() String
+      +calculateFee(minutes) double
+      #ratePerHour() double
+    }
+    class TwoWheeler
+    class Car
+    class ElectricCar
+    class Chargeable {
+      <<interface>>
+      +chargingFee(kWh) double
+    }
+    Vehicle <|-- TwoWheeler
+    Vehicle <|-- Car
+    Vehicle <|-- ElectricCar
+    Chargeable <|.. ElectricCar
