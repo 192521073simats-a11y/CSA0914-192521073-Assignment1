@@ -52,10 +52,11 @@ javac Task08/FeeDemo.java
 java -cp Task08 FeeDemo
 ```
 
-**Task 11 – complete system**
+**Task 11 – complete system and tests**
 ```bash
-javac Task11/SmartParkingSystem.java
+javac Task11/SmartParkingSystem.java Task11/SmartParkingTests.java
 java -cp Task11 SmartParkingSystem
+java -cp Task11 SmartParkingTests
 ```
 
 **Task 12 – extended system**
@@ -87,8 +88,8 @@ java -cp Task12 ExtendedParkingSystem
 - The sample hourly rates in the FeeDemo are selected to reproduce the exact expected output in the assignment brief: two-wheeler Rs 30, car Rs 90, and electric car Rs 210 (including the sample charging fee).
 - The complete system in Task 11 uses clearly stated sample rates and rules. These are configurable examples because the assignment does not prescribe a complete rate card.
 
-## Evidence
-Program output is shown in the task documentation as text captured from local execution. No screenshot is claimed unless an actual screenshot file is present.
+## Evidence and verification
+The Task 3 and Task 8 programs were compiled and run locally; their outputs are saved in each task folder. Task 11 was compiled and its repeatable test program passed 9 checks covering last-slot allocation, zero minutes, 60/61-minute boundaries, duplicate registration, unknown category, full facility, invalid release and monthly-pass fee. Task 12 was compiled and run; its output is saved in Task12/OUTPUT.txt. These are text execution records, not screenshots. No screenshot is claimed unless an actual screenshot file is present.
 
 ## GitHub submission
 Repository URL: https://github.com/192521073simats-a11y/CSA0914-192521073-Assignment1
